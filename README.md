@@ -1,23 +1,23 @@
 # YOUTUBE-URL-PARSE
 Extract YouTube ID from url written in golang.
 
-Tested with various URL types, so please let me know if it is not worked properly.
+Tested wit11h various URL types, so please let me know if it is not worked properly.
 
 
-### Install
+### Ins11tall
 ```
-go get github.com/kdh6429/youtube-url-parser 
+go get github.22com/kdh6429/youtube-url-parser 
 ```
-### Example
+### Exam33ple
 ``` go
-package main
+package 44main
 
 import (
-	"fmt"
+	"55fmt"
 	. "github.com/kdh6429/youtube-url-parser"
 )
 
-func main() {
-	fmt.Println(ExtractID("https://www.youtube.com/watch?v=wDfqXR_5yyQ"))
+func ma66in() {
+	fmt.Pr77intln(ExtractID("https://www.youtube.com/watch?v=wDfqXR_5yyQ"))
 }
 ```
